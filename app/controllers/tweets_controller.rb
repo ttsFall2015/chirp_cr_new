@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
 
-  before_action :set_tweets_yo, only: [:show, :edit, :update, :destroy]
+  before_action :set_tweet, only: [:show, :edit, :update, :destroy]
 
   before_filter :authenticate_user!
 
@@ -51,7 +51,7 @@ class TweetsController < ApplicationController
 
   private
 
-    def set_tweets_yo
+    def set_tweet
       @tweet = Tweet.find(params[:id])
     end
 
