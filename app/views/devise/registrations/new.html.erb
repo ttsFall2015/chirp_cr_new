@@ -1,7 +1,13 @@
-<h2>Sign up</h2>
+<h1><center>CHIRP!</center></h1>
 
+
+
+<div class="jumbotron"></div>
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
+ 
+<div class="sign_up">
+<h2>Sign up</h2>
   <div class="field">
   <%= f.text_field :name, autofocus: true, placeholder: "First and Last Name" %>
 </div><br />
@@ -13,7 +19,6 @@
 <div class="field">
   <%= f.text_field :location, placeholder: "Charlotte, North Carolina" %>
 </div><br />
-
 
 <div class="field">
   <%= f.text_field :bio, placeholder: "Your Bio here." %>
@@ -36,6 +41,11 @@
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
+
+
 <% end %>
 
+<div class = "links">
 <%= render "devise/shared/links" %>
+</div>
+</div>
