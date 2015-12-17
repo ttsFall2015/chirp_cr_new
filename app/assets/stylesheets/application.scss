@@ -19,6 +19,7 @@
 
 body{
 	background-color: #FDD100;
+	font-family: 'Gruppo', cursive;
 }
 
 h1{
@@ -26,28 +27,48 @@ h1{
 	font-family: 'Gruppo', cursive;
 	font-size: 100px;
 	font-variant: normal;
-	font-weight: 200;
+	font-weight: 400;
 	color: #fff;
-	text-shadow: 3px 2px #FD4100;
+	text-shadow: 3px 3px #FD4100;
 	/*padding bottom:-10px;*/
 	}
 
 .jumbotron{
-	background-image:url(c:/tts/chirp_cr_new/app/assets/images/bird_chirping8.jpeg);
-	/*background-image:url(c:/bird_chirping7.jpeg);*/
+	background-image:url("http://cdn.grid.fotosearch.com/CSP/CSP321/k26422831.jpg");
+	/*height: 20%;*/
 	background-attachment: fixed;
-	background-size: cover;
-	padding-top: 20%;
-	padding-bottom: 15% ;
-	padding-right: 0;
-	padding-left:0; 
+	background-size: 320px 240px;
+	/*background-size: 50% 50%;*/
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: #000000;*/
+	/*border-radius: 80%;*/
+	padding-top: 10%;
+	padding-bottom: 10% ;
+	padding-right: 50%;
+	padding-left: 50%; 
+	margin-right: 5px;
+	margin-left: 5px;
 	}
 
-.log_in{
+.log_in, .sign_up, .forgot_pwd{
 	display: inline-block;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #FFF;
-	background-color: #FD4100;
+	background-color: #FDA100;
+	padding: 5px;
+	margin: 5px;
+	margin-bottom: 10px;
 	
+}	
+
+.links{
+	/*text-align: center;*/
+	font-family: 'Gruppo', cursive;
+	font-size: 18px;
+	font-variant: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #FFFFFF;
 }	
